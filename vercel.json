@@ -1,8 +1,4 @@
 {
-    "version": 2,
-    "build": {
-      "sourceDirectory": "public",
-      "commands": [  
-      ]
-    }
+    "version": 2
   }
+  
