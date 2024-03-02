@@ -7,7 +7,7 @@
       }
     ],
     "routes": [
-      { "handle": "index.php", "src": "/(.*)" }
+      { "src": "/(.*)", "dest": "/index.php" }
     ]
   }
   
