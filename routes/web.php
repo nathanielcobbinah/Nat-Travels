@@ -21,14 +21,14 @@ use App\Livewire\AboutUs;
 |
 */
 
-// Route::view('/', 'welcome');
+Route::view('/', 'welcome');
 
 
 
 
 
 
-Route::get('/', PostList::class)->name('posts');
+// Route::get('/', PostList::class)->name('posts');
 Route::get('/create-post', PostCreate::class)->name('posts.create');
 Route::get('/create-categories', CategoryManagement::class)->name('posts.create-categories');
 Route::get('/posts/{postId}', PostDetail::class)->name('posts.show');
